@@ -1,0 +1,18 @@
+img {
+  height: auto;
+  width: 30%;
+  margin: 5px;
+}
+
+.sajek {
+  display: flex;
+  align-items: center;
+}
+.cox {
+  display: flex;
+  align-items: center;
+}
+.sylhet {
+  display: flex;
+  align-items: center;
+}
