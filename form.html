@@ -4,10 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pitha Form</title>
+    <link rel="stylesheet" href="style/form.css" />
   </head>
   <body>
     <header>
       <h2>Jamaler Ma Pitha Ghor</h2>
     </header>
+    <form action="">
+      <label for="name"
+        >Name
+        <input type="text" id="name" placeholder="Your Name" />
+      </label>
+      <label for="phone"
+        >Phone
+        <input type="text" id="phone" placeholder="Your Phone" />
+      </label>
+      <label for="email"
+        >Email
+        <input type="email" id="email" placeholder="Your Email" />
+      </label>
+      <fieldset>
+        <legend>Pick one pitha:</legend>
+        <label for="chitoy">
+          <input type="radio" name="pitha" id="chitoy" />
+          Chitoy
+        </label>
+        <label for="vapa">
+          <input type="radio" name="pitha" id="vapa" />
+          Vapa
+        </label>
+        <label for="puli">
+          <input type="radio" name="pitha" id="puli" />
+          Puli
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Select one or more Vortas:</legend>
+        <label for="jhal">
+          <input type="checkbox" name="vorta" id="jhal" />
+          Jhal
+        </label>
+        <label for="sorisha">
+          <input type="checkbox" name="vorta" id="sorisha" />
+          Sorisha
+        </label>
+        <label for="begun">
+          <input type="checkbox" name="vorta" id="begun" />
+          Begun / বেগুন
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea
+          name=""
+          id=""
+          cols="40"
+          rows="3"
+          placeholder="Write your preference"
+        ></textarea>
+      </fieldset>
+
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
